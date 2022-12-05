@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Nunito:wght@200&family=Syne+Mono&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+body{
+    font-family: 'Fraunces', serif;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 40px 0px;
+}
+
+.nav-logo{
+    width: 236px;
+    height: 26px;
+    margin-left: 123px;
+}
+
+.nav-list{
+    display: flex;
+    margin-right: 77px;
+}
+
+.nav-item{
+    display: flex;
+    margin-right: 50px;
+}
+
+.nav-link{
+    text-decoration: none;
+    color: #83888f;
+    text-transform: uppercase;
+}
+
+.nav-link-style{
+    position: relative;
+    text-decoration: none;
+    color: #333D4B;
+    text-transform: uppercase;
+}
+
+.nav-img{
+    position: absolute;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+.hero{
+    position: relative;
+    width: 1280px;
+    height: 600px;
+    background-image: url(./images/Bitmap.jpg);
+    margin-bottom: 100px;
+}
+
+.hero > div{
+    position: absolute;
+    left: 7%;
+    top: 22%;
+}
+
+.hero-title{
+    font-size: 70px;
+    color: white;
+}
+
+.hero-sentences{
+    margin-top: 30px;
+    margin-bottom: 60px;
+    color: white;
+}
+
+.hero-link{
+    position: relative;
+    background-color: darkcyan;
+    text-decoration: none;
+    color: white;
+    padding: 12px 34px;
+    border-radius: 5px;
+}
+
+.hero-img{
+    position: absolute;
+    margin-left: -40px;
+    margin-top: 25px;
+}
+
+.collection{
+    width: 1111px; height: 525px;
+    display: flex;
+    justify-content: space-around;
+    background-image: url(./images/Group\ 13.png);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    margin-bottom: 150px;
+}
+
+.collection-list{
+    display: flex;
+    align-items: baseline;
+    text-align: center;
+    list-style: none;
+    color: #333D4B;
+    margin-top: 125px;
+}
+
+.collection-title{
+    margin: 30px 0px;
+}
+
+.apps{
+    width: 1280px; height: 577px;
+    text-align: center;
+    margin-bottom: -200px;
+    color: white;
+    background-color: #2C343E;
+    padding: 100px 100px;
+}
+
+.apps-box{
+    font-size: 40px;
+}
+
+.apps-lorem{
+    margin-top: 30px;
+}
+
+.apps-list{
+    display: flex;
+    text-align: center;
+    list-style: none;
+    margin-right: 190px;
+    margin-bottom: 150px;
+    margin-left: 150px;
+}
+
+.apps-item{
+    width: 350px; height: 382px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 10px;
+    background-color: #0E8784;
+    color: #ffff;
+}
+
+.apps-title{
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.footer{
+    margin-left: 125px;
+}
+
+.footer > img{
+    width: 1050px;
+    margin: 50px 0px;
+}
+
+.footer-list{
+    color: #333D4B;
+    display: flex;
+    list-style: none;
+    margin-bottom: 70px;
+}
+
+.footer-title{
+    color: #FDD6BA;
+    font-size: 70px;
+}
+
+.footer-item > h3{
+    margin: 30px 0px;
+    color: #333D4B;
+    font-size: 33px;
+}
+
+.footer-link{
+    position: relative;
+    background-color: darkcyan;
+    text-decoration: none;
+    color: white;
+    padding: 12px 34px;
+    border-radius: 5px;
+    margin-left: 125px;
+}
+
+.footer-img{
+    position: absolute;
+    margin-left: -40px;
+    margin-top: 30px;
+}
+
+.end{
+    display: flex;
+    background-color: #2C343E;
+    padding: 40px 22px;
+    margin: 200px 70px 30px;
+}
+
+.end-logo{
+    margin-right: 70px;
+    margin-left: 50px;
+}
+
+.end-list{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin-right: 220px;
+}
+
+.end-item{
+    margin-right: 50px;
+}
+
+.end-link{
+    text-decoration: none;
+    color: #83888f;
+    text-transform: uppercase;
+}
+
+.end-link-style{
+    position: relative;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+
+.end-img{
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 65px;
+}
+
+.end-icon{
+    position: relative;
+    text-decoration: none;
+    margin-right: 25px;
+}
+
+.end-arrow{
+    position: absolute;
+    margin-top: 14px;
+    margin-left: -39px;
+}
